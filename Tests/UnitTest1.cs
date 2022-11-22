@@ -62,6 +62,6 @@ public class Tests
         var file = File.Create(Output);
         var writer = XmlWriter.Create(file);
         var style = new XmlTextReader(Style);
-        XmlConverter.Transform(style, _reader, writer);
+        XmlTransformer.Transform(style, _reader, writer);
     }
 }

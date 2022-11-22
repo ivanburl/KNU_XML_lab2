@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Lab2.Search.impl.XmlSaxSearch&lt;T&gt;">
+    <Position X="0.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAABAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Search\impl\XmlSaxSearch.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab2.Search.impl.XmlLinqSearch&lt;T&gt;">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAABAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Search\impl\XmlLinqSearch.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab2.Search.impl.XmlDomSearch&lt;T&gt;">
+    <Position X="4.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAABAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Search\impl\XmlDomSearch.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Lab2.Search.IXmlSearchStrategy&lt;T&gt;">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Search\IXMLSearchStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Lab2.Filter.ISearchFilter&lt;T&gt;">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filter\ISearchFilter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Lab2.Builder.IObjectContinuousBuilder&lt;T&gt;">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAQAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Builder\IObjectContinuousBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
